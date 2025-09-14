@@ -9,17 +9,16 @@
     <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
     <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
 
-    <!-- Babel for JSX transformation in browser -->
+    <!-- Babel for JSX transformation -->
     <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
   </head>
   <body>
-    <!-- React will render here -->
     <div id="root"></div>
 
-    <!-- Import your App.jsx -->
+    <!-- Load App.jsx -->
     <script type="text/babel" src="App.jsx"></script>
 
-    <!-- Render App.jsx -->
+    <!-- Render -->
     <script type="text/babel">
       const root = ReactDOM.createRoot(document.getElementById("root"));
       root.render(<App />);
