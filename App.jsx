@@ -28,7 +28,7 @@ const emergencyContacts = [
   { name: "Roadside Assistance", phone: "+91-9876543212", type: "roadside" }
 ];
 
-export default function App() {
+function App() {
   const [user, setUser] = useState(null);
   const [issue, setIssue] = useState("");
   const [history, setHistory] = useState([]);
